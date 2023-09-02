@@ -109,7 +109,7 @@ namespace C__HomeWork4_CatShop__
                         else
                         {
                             MyClear(); Console.WriteLine("This operation can not find..."); Console.Write("Please tap to any key : ");
-                            Console.ReadLine(); break;
+                            Console.ReadLine(); continue;
                         }
                     }
                 }
@@ -181,7 +181,7 @@ namespace C__HomeWork4_CatShop__
                         {
                             MyClear();
                             Console.WriteLine("This operation can not find..."); Console.Write("Please tap to any key : ");
-                            Console.ReadLine(); break;
+                            Console.ReadLine(); continue ;
                         }
                     }
                 }
@@ -189,7 +189,7 @@ namespace C__HomeWork4_CatShop__
                 else
                 {
                     MyClear(); Console.WriteLine("This operation can not find..."); Console.Write("Please tap to any key : ");
-                    Console.ReadLine(); break;
+                    Console.ReadLine();continue;
                 }
             }
         }
